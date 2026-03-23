@@ -1,0 +1,75 @@
+{
+    "remote.autoForwardPortsSource": "hybrid",
+    "monica-code.enableTabAutocomplete": false,
+    "editor.fontSize": 15,
+    "debug.console.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        },
+        "bash (2)": {
+            "path": "/usr/bin/bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "parallels-desktop.extension.path": "/Users/liuiu/.parallels-desktop-vscode",
+    "parallels-desktop.brew.path": "/opt/homebrew/bin/brew",
+    "parallels-desktop.git.path": "/usr/bin/git",
+    "parallels-desktop.prlctl.path": "/usr/local/bin/prlctl",
+    "parallels-desktop.devops-service.path": "/Users/liuiu/.parallels-desktop-vscode/tools/prldevops",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "monica-code.showInlineTip": false,
+    "terminal.integrated.suggest.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "chat.viewSessions.orientation": "stacked",
+    "remote.SSH.remotePlatform": {
+        "orin": "linux",
+        "Workstation": "linux",
+        "realman": "linux",
+        "legion": "windows",
+        "legion-wsl": "linux",
+        "jump-wan": "linux",
+        "dev1-wan": "linux",
+        "legion-wan": "linux",
+        "Remote_workstation": "linux",
+        "dev2-wan": "linux",
+        "Bandwagong": "linux",
+        "usb_orin": "linux",
+        "dev3-wan": "linux",
+        "dev3-wan-internal": "linux",
+        "Remote-legion-wsl": "linux",
+        "jump": "linux",
+        "Remote-legion": "linux"
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "cursor.composer.usageSummaryDisplay": "always",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "redhat.telemetry.enabled": true,
+    "workbench.editorAssociations": {
+        "*.png": "imagePreview.previewEditor"
+    },
+    "files.associations": {
+        "*.repos": "yaml"
+    },
+    "gitlens.ai.model": "gitkraken",
+    "gitlens.ai.gitkraken.model": "gemini:gemini-2.5-flash"
+}
