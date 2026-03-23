@@ -23,7 +23,12 @@ echo "=== 检测到以下变更 ==="
 git status --short
 echo ""
 
-read -p "是否提交并推送？[y/N] " confirm
+if [[ "$1" == "-y" ]]; then
+    confirm="y"
+else
+    read -p "是否提交并推送？[y/N] " confirm
+fi
+
 if [[ "$confirm" =~ ^[Yy]$ ]]; then
     git add -A
     git commit -m "sync: $(date '+%Y-%m-%d %H:%M')"
