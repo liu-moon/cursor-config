@@ -3,7 +3,9 @@ anysphere.cursorpyright
 anysphere.remote-containers
 anysphere.remote-ssh
 anysphere.remote-wsl
+donjayamanne.githistory
 llvm-vs-code-extensions.vscode-clangd
+mhutchie.git-graph
 ms-azuretools.vscode-docker
 ms-python.debugpy
 ms-python.python
