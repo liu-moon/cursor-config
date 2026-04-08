@@ -58,7 +58,11 @@
         "dev3-wan-internal": "linux",
         "Remote-legion-wsl": "linux",
         "jump": "linux",
-        "Remote-legion": "linux"
+        "Remote-legion": "linux",
+        "thor3": "linux",
+        "thor1": "linux",
+        "Remote-dev3-wan": "linux",
+        "Remote-dev2-wan": "linux"
     },
     "workbench.colorTheme": "Default Dark+",
     "cursor.composer.usageSummaryDisplay": "always",
